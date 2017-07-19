@@ -1,0 +1,132 @@
+body {
+  color: white;
+  background-color: rgb(40, 40, 40);
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  color: white;
+  background-color: rgba(50, 50, 50, 0,1);
+  width: 600px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#img-profile {
+  width: 100px;
+  height: 100px;
+  border: 3px solid;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+h1 {
+  color: rgb(0, 255, 255);
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  text-align: justify;
+  color: white;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: rgb(40, 40, 40);
+  color: red;
+  font-weight: 1000;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+#movies {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+#movies td {
+  padding: 10px;
+}
+
+#movies img {
+  width: 80px;
+}
+
+td, th {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+}
+
+a {
+  color: cyan;
+  text-decoration: none;
+}
+
+a:hover { color: rgba(255,255,255, 0.5); }
+
+li i { margin-right: 5px; }
+
+li {
+  color: green;
+  text-align: center;
+  list-style: none;
+}
+
+i {
+  color: cyan;
+}
+
